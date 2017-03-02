@@ -1,0 +1,86 @@
+"*":
+  "aligner-ruby": {}
+  "atom-ctags": {}
+  blame:
+    defaultWidth: 300
+    gutterFormat: "{date} {author}"
+  core:
+    audioBeep: false
+    disabledPackages: [
+      "relative-numbers"
+      "linter-rubocop"
+      "language-php"
+      "language-perl"
+      "language-objective-c"
+      "language-mustache"
+      "language-less"
+      "language-java"
+      "language-hyperlink"
+      "language-gfm"
+      "language-csharp"
+      "language-clojure"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-dark-ui"
+      "atom-dark-syntax"
+    ]
+    useCustomTitleBar: true
+  "custom-title":
+    template: "<%= relativeFilePath %>"
+  editor:
+    autoIndentOnPaste: true
+    backUpBeforeSaving: true
+    fontSize: 13
+    invisibles: {}
+    normalizeIndentOnPaste: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "073e1332-ed7a-6bb3-7a3f-deb3c48bb2fe"
+  "git-blame":
+    columnWidth: 250
+  "git-diff":
+    showIconsInEditorGutter: true
+  livereload:
+    applyCSSLive: false
+  "relative-numbers":
+    showAbsoluteNumbers: true
+  rspec:
+    command: "bundle exec rspec"
+  tabs:
+    addNewTabsAtEnd: true
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+".basic.html.text":
+  editor:
+    normalizeIndentOnPaste: "true"
+".erb.html.text":
+  editor:
+    normalizeIndentOnPaste: "true"
+".git-commit.text":
+  editor:
+    normalizeIndentOnPaste: "true"
+".git-config.source":
+  editor:
+    normalizeIndentOnPaste: "true"
+".git-rebase.text":
+  editor:
+    normalizeIndentOnPaste: "true"
+".js.regexp.replacement.source":
+  editor:
+    normalizeIndentOnPaste: "true"
+".js.regexp.source":
+  editor:
+    normalizeIndentOnPaste: "true"
+".js.source":
+  editor:
+    normalizeIndentOnPaste: "true"
+".ruby.source":
+  editor:
+    normalizeIndentOnPaste: "true"
+"text.basic.html":
+  editor:
+    normalizeIndentOnPaste: "true"
