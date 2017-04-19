@@ -20,12 +20,16 @@
       "language-csharp"
       "language-clojure"
     ]
+    packagesWithKeymapsDisabled: [
+      "ctrl-dir-scroll"
+    ]
     telemetryConsent: "no"
     themes: [
       "atom-dark-ui"
       "atom-dark-syntax"
     ]
-    useCustomTitleBar: true
+    titleBar: "custom"
+  "ctrl-dir-scroll": {}
   "custom-title":
     template: "<%= relativeFilePath %>"
   editor:
@@ -43,6 +47,11 @@
     showIconsInEditorGutter: true
   livereload:
     applyCSSLive: false
+  "markdown-table-formatter":
+    markdownGrammarScopes: [
+      "source.gfm"
+      "text.plain.null-grammar"
+    ]
   "relative-numbers":
     showAbsoluteNumbers: true
   rspec:

@@ -33,10 +33,13 @@
   'ctrl-alt-c': 'copy-path:copy-project-relative-path'
   'ctrl-alt-;': 'copy-path:copy-line-reference'
   'alt-g alt-o': 'open-on-github:file-on-master'
+  'ctrl-alt-j':	'ctrl-dir-scroll:scroll-up-big'
+  'ctrl-alt-k':	'ctrl-dir-scroll:scroll-down-big'
 
 'body':
   'ctrl-j': 'core:move-up'
   'ctrl-k': 'core:move-down'
   'cmd-@': 'pane:split-right'
-  # 'cmd-!': 'window:focus-pane-on-left'
-  # 'cmd-@': 'window:focus-pane-on-right'
+  'cmd-!': 'window:focus-next-pane'
+  'cmd-}': 'window:move-active-item-to-pane-on-right'
+  'cmd-{': 'window:move-active-item-to-pane-on-left'
