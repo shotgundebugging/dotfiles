@@ -1,6 +1,8 @@
 
 aligner
+aligner-javascript
 aligner-ruby
+apex-ui
 atom-ember-frost-syntax
 atom-handlebars
 auto-reveal-in-sidebar
@@ -8,11 +10,11 @@ base64
 blame
 busy-signal
 copy-path
-ctrl-dir-scroll
 custom-title
 ember-snippets
 expand-selection-to-quotes
 file-icons
+goto-definition
 highlight-selected
 intentions
 language-rspec
@@ -25,6 +27,8 @@ markdown-table-formatter
 merge-conflicts
 move-panes
 pretty-json
+pristine-ui
+pure-syntax
 rails-open-rspec
 rails-snippets
 relative-numbers

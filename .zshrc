@@ -81,7 +81,7 @@ alias bo='bundle open'
 alias be='bundle exec'
 alias rerver='bundle exec rails server'
 alias ta='tmux attach'
-alias bs='gb -r | selecta | cut -d "/" -f 2 | xargs git checkout'
+alias bs='gb | selecta | cut -d "/" -f 2 | xargs git checkout'
 alias cb='gb | selecta | tr -d "*" | tr -d " " | pbcopy'
 alias gmg='git merge $(cb)'
 alias cbcb='echo `current_branch` | pbcopy'
@@ -124,4 +124,5 @@ setopt AUTO_PUSHD HIST_IGNORE_DUPS PUSHD_IGNORE_DUPS
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"

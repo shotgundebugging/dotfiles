@@ -1,6 +1,8 @@
 "*":
   "aligner-ruby": {}
   "atom-ctags": {}
+  "atom-package-deps":
+    ignored: []
   blame:
     defaultWidth: 300
     gutterFormat: "{date} {author}"
@@ -25,8 +27,8 @@
     ]
     telemetryConsent: "no"
     themes: [
-      "atom-dark-ui"
-      "atom-dark-syntax"
+      "pristine-ui"
+      "base16-tomorrow-dark-theme"
     ]
     titleBar: "custom"
   "ctrl-dir-scroll": {}
@@ -35,7 +37,7 @@
   editor:
     autoIndentOnPaste: true
     backUpBeforeSaving: true
-    fontSize: 13
+    fontSize: 12
     invisibles: {}
     normalizeIndentOnPaste: true
     showInvisibles: true
@@ -45,6 +47,9 @@
     columnWidth: 250
   "git-diff":
     showIconsInEditorGutter: true
+  "linter-ui-default":
+    panelHeight: 188
+    showPanel: true
   livereload:
     applyCSSLive: false
   "markdown-table-formatter":
@@ -52,13 +57,16 @@
       "source.gfm"
       "text.plain.null-grammar"
     ]
+  "rails-open-rspec": {}
   "relative-numbers":
     showAbsoluteNumbers: true
   rspec:
     command: "bundle exec rspec"
   tabs:
     addNewTabsAtEnd: true
-  "tree-view": {}
+  "tree-view":
+    autoReveal: true
+    focusOnReveal: false
   welcome:
     showOnStartup: false
   whitespace:

@@ -2,6 +2,7 @@ cp $HOME/.gitconfig .
 cp $HOME/.gitmessage .
 sed -i.bak '/token/d' .gitconfig
 rm .gitconfig.bak
+cp .gitconfig _gitconfig
 
 cp -R $HOME/.oh-my-zsh .
 cp -R $HOME/.zshrc .
