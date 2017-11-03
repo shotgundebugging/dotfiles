@@ -37,7 +37,7 @@
   editor:
     autoIndentOnPaste: true
     backUpBeforeSaving: true
-    fontSize: 12
+    fontSize: 13
     invisibles: {}
     normalizeIndentOnPaste: true
     showInvisibles: true
@@ -48,7 +48,6 @@
   "git-diff":
     showIconsInEditorGutter: true
   "linter-ui-default":
-    panelHeight: 188
     showPanel: true
   livereload:
     applyCSSLive: false
@@ -64,6 +63,7 @@
     command: "bundle exec rspec"
   tabs:
     addNewTabsAtEnd: true
+    enableVcsColoring: true
   "tree-view":
     autoReveal: true
     focusOnReveal: false

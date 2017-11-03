@@ -62,3 +62,37 @@ atom-text-editor::shadow .cursor {
     }
   }
 }
+
+.theme-pristine-ui {
+  .pane {
+    .gutter,
+    ul.tab-bar {
+      opacity: 0.4;
+    }
+  }
+
+  .tab-bar {
+    .title {
+      color: white;
+      font-size: 13px;
+    }
+  }
+
+  .tabs-tab.active {
+    font-size: 16px;
+  }
+
+  .pane.active {
+    .gutter {
+      opacity: 1;
+    }
+    ul.tab-bar {
+      opacity: 1;
+      .tab.active {
+        color: #e98c29;
+        font-weight: bold;
+        min-width: 20em;
+      }
+    }
+  }
+}

@@ -9,3 +9,11 @@
 # atom.workspace.observeTextEditors (editor) ->
 #   editor.onDidSave ->
 #     console.log "Saved! #{editor.getPath()}"
+
+atom.commands.add 'atom-text-editor', 'core:move-up-10', ->
+  editor = @getModel()
+  editor.moveUp(10)
+
+atom.commands.add 'atom-text-editor', 'core:move-down-10', ->
+  editor = @getModel()
+  editor.moveDown(10)

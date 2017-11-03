@@ -3,6 +3,7 @@ aligner
 aligner-javascript
 aligner-ruby
 apex-ui
+atom-beautify
 atom-ember-frost-syntax
 atom-handlebars
 auto-reveal-in-sidebar
@@ -31,6 +32,7 @@ pristine-ui
 pure-syntax
 rails-open-rspec
 rails-snippets
+react
 relative-numbers
 rspec
 rspec-snippets
