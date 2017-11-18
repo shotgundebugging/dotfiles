@@ -1,3 +1,4 @@
+
 aligner
 aligner-javascript
 aligner-ruby
@@ -10,10 +11,12 @@ base64
 blame
 busy-signal
 copy-path
+ctrl-dir-scroll
 custom-title
 ember-snippets
 expand-selection-to-quotes
 file-icons
+git-blame
 goto-definition
 highlight-selected
 intentions
