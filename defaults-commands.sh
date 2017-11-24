@@ -48,3 +48,6 @@ defaults write -g WebKitDeveloperExtras -bool true
 
 # Disable Resume system-wide
 defaults write com.apple.systempreferences NSQuitAlwaysKeepsWindows -bool false
+
+# Disable boot chime
+sudo nvram -d SystemAudioVolume
