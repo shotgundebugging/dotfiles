@@ -86,6 +86,7 @@ alias cb='gb | selecta | tr -d "*" | tr -d " " | pbcopy'
 alias gmg='git merge $(cb)'
 alias cbcb='echo `current_branch` | pbcopy'
 alias laststory='curl -X GET -H "X-TrackerToken: $PT_TOKEN" "https://www.pivotaltracker.com/services/v5/my/activity?envelope=true&limit=1" | json'
+alias c='cd'
 
 # User configuration
 
