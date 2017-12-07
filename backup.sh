@@ -16,4 +16,6 @@ cp $HOME/.atom/* ./atom/
 cp -R $HOME/.oh-my-zsh/themes/shotgundebugging.zsh-theme .
 cp -R $HOME/com.googlecode.iterm2.plist .
 
-find $HOME/.atom/packages -type d -maxdepth 1 | cut -f 6 -d '/' > ./atom/atom-packages
+find $HOME/.atom/packages -type d -maxdepth 1 | cut -f 6 -d '/' > ./atom/atom-packages.new
+cat ./atom/atom-packages ./atom/atom-packages.new | sort | uniq > ./atom/atom-packages
+rm ./atom/atom-packages.new
