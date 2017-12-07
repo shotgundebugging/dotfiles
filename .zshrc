@@ -53,8 +53,6 @@ plugins=(git zeus ruby)
 source $ZSH/oh-my-zsh.sh
 source $HOME/.secrets
 source $HOME/.bash_profile
-# Fink
-source /sw/bin/init.sh
 
 # Git aliases
 
