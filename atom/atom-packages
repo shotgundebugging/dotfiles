@@ -11,15 +11,16 @@ base64
 blame
 busy-signal
 copy-path
-ctrl-dir-scroll
 custom-title
 ember-snippets
+es6-javascript
 expand-selection-to-quotes
 file-icons
-git-blame
 goto-definition
 highlight-selected
 intentions
+language-babel
+language-ember
 language-rspec
 last-cursor-position
 linter
@@ -34,7 +35,6 @@ pristine-ui
 pure-syntax
 rails-open-rspec
 rails-snippets
-react
 relative-numbers
 rspec
 rspec-snippets
