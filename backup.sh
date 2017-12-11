@@ -1,5 +1,3 @@
-./restore.sh
-
 # zsh
 cp -R $HOME/.oh-my-zsh/themes/shotgundebugging.zsh-theme .
 cp -R $HOME/.zshrc .
