@@ -17,3 +17,6 @@ atom.commands.add 'atom-text-editor', 'core:move-up-10', ->
 atom.commands.add 'atom-text-editor', 'core:move-down-10', ->
   editor = @getModel()
   editor.moveDown(10)
+
+activePane = atom.workspace.getActivePane()
+activePane.splitRight({copyActiveItem: true})
