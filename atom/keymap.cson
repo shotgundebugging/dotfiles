@@ -47,3 +47,5 @@
   'cmd-!': 'window:focus-next-pane'
   'cmd-}': 'window:move-active-item-to-pane-on-right'
   'cmd-{': 'window:move-active-item-to-pane-on-left'
+  'alt-cmd-;': 'pane:show-next-item'
+  'alt-cmd-l': 'pane:show-previous-item'

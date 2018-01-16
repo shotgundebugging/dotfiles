@@ -17,6 +17,7 @@ ember-snippets
 es6-javascript
 expand-selection-to-quotes
 file-icons
+file-types
 git-blame
 goto-definition
 highlight-selected

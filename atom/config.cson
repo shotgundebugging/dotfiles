@@ -21,6 +21,7 @@
       "language-gfm"
       "language-csharp"
       "language-clojure"
+      "language-ember"
     ]
     packagesWithKeymapsDisabled: [
       "ctrl-dir-scroll"
@@ -98,6 +99,8 @@
 ".ruby.source":
   editor:
     normalizeIndentOnPaste: "true"
+"file-types":
+  hbs: "text.html.htmlbars"
 "text.basic.html":
   editor:
     normalizeIndentOnPaste: "true"
