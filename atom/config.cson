@@ -3,6 +3,11 @@
   "atom-ctags": {}
   "atom-package-deps":
     ignored: []
+  "autocomplete-plus":
+    autoActivationDelay: 500
+    backspaceTriggersAutocomplete: true
+    maxVisibleSuggestions: 5
+    strictMatching: true
   blame:
     defaultWidth: 300
     gutterFormat: "{date} {author}"
