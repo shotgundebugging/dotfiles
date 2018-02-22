@@ -29,6 +29,8 @@
 'atom-text-editor':
   'ctrl-l': 'editor:move-to-beginning-of-word'
   'ctrl-;': 'editor:move-to-end-of-word'
+  'ctrl-cmd-j': 'editor:move-line-up'
+  'ctrl-cmd-k': 'editor:move-line-down'
   'ctrl-k': 'unset!'
   'ctrl-alt-c': 'copy-path:copy-project-relative-path'
   'ctrl-alt-;': 'copy-path:copy-line-reference'
