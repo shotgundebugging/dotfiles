@@ -4,7 +4,7 @@
   "atom-package-deps":
     ignored: []
   "autocomplete-plus":
-    autoActivationDelay: 500
+    autoActivationDelay: 250
     backspaceTriggersAutocomplete: true
     maxVisibleSuggestions: 5
     strictMatching: true
@@ -27,6 +27,7 @@
       "language-csharp"
       "language-clojure"
       "language-ember"
+      "selection-mode"
     ]
     packagesWithKeymapsDisabled: [
       "ctrl-dir-scroll"

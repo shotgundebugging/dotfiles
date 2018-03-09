@@ -36,6 +36,7 @@
   'ctrl-alt-;': 'copy-path:copy-line-reference'
   'alt-g alt-o': 'open-on-github:file-on-master'
   'cmd-shift-e': 'editor:delete-to-end-of-line'
+  'escape': 'custom:deselect'
 
 
 'body':
