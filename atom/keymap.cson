@@ -29,6 +29,8 @@
 'atom-text-editor':
   'ctrl-l': 'editor:move-to-beginning-of-word'
   'ctrl-;': 'editor:move-to-end-of-word'
+  'alt-L': 'editor:select-to-beginning-of-word'
+  'alt-:': 'editor:select-to-end-of-word'
   'ctrl-cmd-j': 'editor:move-line-up'
   'ctrl-cmd-k': 'editor:move-line-down'
   'ctrl-k': 'unset!'
@@ -50,5 +52,5 @@
   'cmd-!': 'window:focus-next-pane'
   'cmd-}': 'window:move-active-item-to-pane-on-right'
   'cmd-{': 'window:move-active-item-to-pane-on-left'
-  'alt-cmd-;': 'pane:show-next-item'
-  'alt-cmd-l': 'pane:show-previous-item'
+  'alt-cmd-j': 'pane:show-previous-item'
+  'alt-cmd-k': 'pane:show-next-item'
