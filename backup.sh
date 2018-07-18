@@ -4,6 +4,7 @@ cp -R $HOME/.zshrc .
 
 # git
 cp $HOME/.gitconfig .
+cp $HOME/.githelpers .
 cp $HOME/.gitmessage .
 sed -i.bak '/token/d' .gitconfig
 rm .gitconfig.bak

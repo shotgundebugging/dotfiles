@@ -5,6 +5,7 @@ cp .zshrc ~/
 
 # git
 cp _gitconfig $HOME/.gitconfig
+cp .githelpers $HOME/.githelpers
 cp .gitmessage $HOME/
 
 # OS X profile
