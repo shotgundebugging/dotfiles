@@ -81,7 +81,7 @@ alias cbcb='echo `current_branch` | pbcopy'
 alias c='cd'
 alias gre='grep -rnw './' -e'
 alias todid="gist -l | grep `current_branch` | cut -d ' ' -f 1 | cut -d '/' -f 4 | xargs gist -r"
-alias todo="gist -l | grep `current_branch` | cut -d ' ' -f 1 | cut -d '/' -f 4 | xargs gist -u"
+alias todo="GIST=`gist -l | grep \`current_branch\` | cut -d ' ' -f 1 | cut -d '/' -f 4`; gist -u $GIST"
 
 
 # User configuration
