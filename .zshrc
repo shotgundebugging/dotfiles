@@ -58,7 +58,6 @@ source $HOME/.bash_profile
 
 alias ga='git add -A'
 alias gp='git push -u origin $(current_branch)'
-alias gl='git pull'
 alias gs='git status'
 alias gd='git diff'
 alias gm='git commit -m'
@@ -67,10 +66,7 @@ alias gb='git branch'
 alias gc='git checkout'
 alias gra='git remote add'
 alias grr='git remote rm'
-alias gpu='git pull'
-alias gcl='git clone'
 alias gta='git tag -a -m'
-alias gf='git reflog'
 alias gx='gitx'
 
 # Workflow
@@ -78,14 +74,15 @@ alias gx='gitx'
 alias bo='bundle open'
 alias be='bundle exec'
 alias rerver='bundle exec rails server'
-alias ta='tmux attach'
 alias bs='gb | selecta | cut -d "/" -f 2 | xargs git checkout'
 alias cb='gb | selecta | tr -d "*" | tr -d " " | pbcopy'
 alias gmg='git merge $(cb)'
 alias cbcb='echo `current_branch` | pbcopy'
-alias laststory='curl -X GET -H "X-TrackerToken: $PT_TOKEN" "https://www.pivotaltracker.com/services/v5/my/activity?envelope=true&limit=1" | json'
 alias c='cd'
 alias gre='grep -rnw './' -e'
+alias todid="gist -l | grep `current_branch` | cut -d ' ' -f 1 | cut -d '/' -f 4 | xargs gist -r"
+alias todo="gist -l | grep `current_branch` | cut -d ' ' -f 1 | cut -d '/' -f 4 | xargs gist -u"
+
 
 # User configuration
 
