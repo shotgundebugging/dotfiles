@@ -53,8 +53,7 @@
     columnWidth: 250
   "git-diff":
     showIconsInEditorGutter: true
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   livereload:
     applyCSSLive: false
   "markdown-table-formatter":
