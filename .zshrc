@@ -48,11 +48,16 @@ ZSH_THEME="shotgundebugging"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git zeus ruby)
+plugins=(git zeus ruby zsh-navigation-tools)
+
+zstyle ':urlglobber' url-other-schema
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.secrets
 source $HOME/.bash_profile
+source $HOME/.my-functions
+source $HOME/h1/hack_profile.sh
+source $HOME/go/src/github.com/tomnomnom/gf/gf-completion.zsh
 
 # Git aliases
 
@@ -83,14 +88,15 @@ alias gre='grep -rnw './' -e'
 # alias todid="gist -l | grep \`current_branch\` | cut -d ' ' -f 1 | cut -d '/' -f 4 | xargs gist -r"
 # alias todo="GIST=`gist -l | grep \`current_branch\` | cut -d ' ' -f 1 | cut -d '/' -f 4`; gist -u $GIST"
 
+alias curl=curl -k
 
 # User configuration
 
 # export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/local/MacGPG2/bin:/Users/mircea/.rvm/bin:/Users/mircea/.rvm/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
-export BUNDLER_EDITOR="atom"
-export EDITOR="atom"
+export BUNDLER_EDITOR="vim"
+export EDITOR="vim"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -122,4 +128,7 @@ setopt AUTO_PUSHD HIST_IGNORE_DUPS PUSHD_IGNORE_DUPS
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="/usr/local/sbin:$PATH"

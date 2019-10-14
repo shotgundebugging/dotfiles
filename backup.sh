@@ -15,6 +15,7 @@ cp -R $HOME/.profile .
 cp -R $HOME/.bash_profile .
 cp -R $HOME/.bashrc .
 cp -R $HOME/.zlogin .
+cp -R $HOME/.gf .
 
 # atom
 mkdir atom

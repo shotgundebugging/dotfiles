@@ -6,6 +6,7 @@ apex-ui
 atom-beautify
 atom-ember-frost-syntax
 atom-handlebars
+auto-indent
 auto-reveal-in-sidebar
 base64
 blame

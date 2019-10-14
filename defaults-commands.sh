@@ -51,3 +51,7 @@ defaults write com.apple.systempreferences NSQuitAlwaysKeepsWindows -bool false
 
 # Disable boot chime
 sudo nvram -d SystemAudioVolume
+
+# Mouse
+defaults read -g com.apple.mouse.scaling
+defaults write -g com.apple.mouse.scaling 4

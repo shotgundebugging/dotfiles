@@ -31,6 +31,10 @@
     ]
     packagesWithKeymapsDisabled: [
       "ctrl-dir-scroll"
+      "spell-check"
+    ]
+    packagesWithSnippetsDisabled: [
+      "rails-snippets"
     ]
     telemetryConsent: "no"
     themes: [
@@ -38,14 +42,17 @@
       "base16-tomorrow-dark-theme"
     ]
     titleBar: "custom"
+    useTreeSitterParsers: false
   "ctrl-dir-scroll": {}
   "custom-title":
     template: "<%= relativeFilePath %>"
   editor:
     autoIndentOnPaste: true
     backUpBeforeSaving: true
+    fontSize: 15
     invisibles: {}
     normalizeIndentOnPaste: true
+    showIndentGuide: true
     showInvisibles: true
   "exception-reporting":
     userId: "073e1332-ed7a-6bb3-7a3f-deb3c48bb2fe"
@@ -56,6 +63,8 @@
   "linter-ui-default": {}
   livereload:
     applyCSSLive: false
+  "markdown-preview":
+    breakOnSingleNewline: true
   "markdown-table-formatter":
     markdownGrammarScopes: [
       "source.gfm"
