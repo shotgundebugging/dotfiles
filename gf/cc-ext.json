@@ -1,0 +1,4 @@
+{
+    "flags": "-hiEr",
+    "pattern": "\\.(php|asp|aspx|dev|jsp|wsdl|xml|cgi|json|html)$"
+}

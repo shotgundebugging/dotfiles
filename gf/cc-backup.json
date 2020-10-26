@@ -1,0 +1,4 @@
+{
+    "flags": "-hiEr",
+    "pattern": "(\\\\.bkp|\\\\.bak|backup|\\\\.dump|\\\\.sql)"
+}

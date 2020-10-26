@@ -1,0 +1,4 @@
+{
+    "flags": "-hiEr",
+    "pattern": "\\.(zip|rar|tar|bkp|sql|zip|bz2|gz|txt|bak|conf|log|error|debug|yml|lock|template|tpl)$"
+}

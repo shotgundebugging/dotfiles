@@ -1,0 +1,4 @@
+{
+    "flags": "-hiEr",
+    "pattern": "(admin|account|debug|control|config|upload|system|secret|environment|dashboard)$"
+}
