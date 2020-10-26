@@ -24,5 +24,8 @@ find $HOME/.atom/packages -type d -maxdepth 1 | cut -f 6 -d '/' > ./atom/atom-pa
 cat ./atom/atom-packages ./atom/atom-packages.new | sort | uniq > ./atom/atom-packages
 rm ./atom/atom-packages.new
 
+mkdir gf
+cp $HOME/.gf/* ./gf/
+
 # iterm
 cp -R $HOME/com.googlecode.iterm2.plist .
