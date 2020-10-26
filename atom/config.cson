@@ -33,9 +33,6 @@
       "ctrl-dir-scroll"
       "spell-check"
     ]
-    packagesWithSnippetsDisabled: [
-      "rails-snippets"
-    ]
     telemetryConsent: "no"
     themes: [
       "pristine-ui"
@@ -49,7 +46,6 @@
   editor:
     autoIndentOnPaste: true
     backUpBeforeSaving: true
-    fontSize: 15
     invisibles: {}
     normalizeIndentOnPaste: true
     showIndentGuide: true
@@ -60,7 +56,8 @@
     columnWidth: 250
   "git-diff":
     showIconsInEditorGutter: true
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   livereload:
     applyCSSLive: false
   "markdown-preview":

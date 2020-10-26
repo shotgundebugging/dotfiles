@@ -6,6 +6,7 @@ apex-ui
 atom-beautify
 atom-ember-frost-syntax
 atom-handlebars
+atom-liquid-snippets
 auto-indent
 auto-reveal-in-sidebar
 base64
@@ -25,6 +26,7 @@ highlight-selected
 intentions
 language-babel
 language-ember
+language-liquid
 language-rspec
 last-cursor-position
 linter

@@ -88,7 +88,8 @@ alias gre='grep -rnw './' -e'
 # alias todid="gist -l | grep \`current_branch\` | cut -d ' ' -f 1 | cut -d '/' -f 4 | xargs gist -r"
 # alias todo="GIST=`gist -l | grep \`current_branch\` | cut -d ' ' -f 1 | cut -d '/' -f 4`; gist -u $GIST"
 
-alias curl=curl -k
+alias curl='curl -k'
+alias wr='with-readline'
 
 # User configuration
 
@@ -99,7 +100,7 @@ export BUNDLER_EDITOR="vim"
 export EDITOR="vim"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -109,7 +110,7 @@ export EDITOR="vim"
 # fi
 
 # Compilation flags
-# export ARCHFLAGS="-arch x86_64"
+export ARCHFLAGS="-arch x86_64"
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
@@ -128,7 +129,10 @@ setopt AUTO_PUSHD HIST_IGNORE_DUPS PUSHD_IGNORE_DUPS
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="/usr/local/sbin:$PATH"
+
+# NVM
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+# [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
